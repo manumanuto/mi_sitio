@@ -1,0 +1,32 @@
+
+
+.galeriaIlustraciones{
+    width: 100%;
+    height: 30%;
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+.galeriaIlustraciones figure img {
+	transform: scale(1);
+	transition: 1s;
+    opacity: 70%;
+    border-radius: 5%;
+    
+	
+}
+.galeriaIlustraciones figure:hover img {
+    transform: scale(1.2);
+    opacity: 100%;
+    
+}
+.dosImagenes {
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    gap: 200px;
+    justify-content: center; 
+}

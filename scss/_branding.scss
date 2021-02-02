@@ -1,0 +1,41 @@
+.contenedor .proyectosBranding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contenedor .proyectosBranding {
+    grid-column: 2/5;
+}
+
+.contenedor .proyectosBranding {
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+    display: grid;    
+    grid-template-columns: repeat(5, 1fr);
+
+    }
+.galeriaLogos{
+    grid-column: 1/6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #4b4b4b;
+    padding: 50px;
+
+}
+
+.formularioSecundarioBrand {
+    background: url(../images/imagenFormularioBrnading.jpg) no-repeat;
+    padding: 100px;
+    color: white;
+
+
+}
