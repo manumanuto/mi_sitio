@@ -386,8 +386,7 @@ div.fixed {
       }
     }
     
-.imgFormularioChico{   
-    }
+
 
 @media only screen and (max-width: 598px) {
 .imgFormularioChico {
@@ -400,15 +399,13 @@ div.fixed {
 
 }
 
-.imgFormularioGrande {
 
-}
 
 @media only screen and (min-width: 599px) {
   .imgFormularioGrande {
     background: url(../images/imgformulario.jpg) no-repeat;
     background-position: center center;
-    width: 1200px;
+    width: 1500px;
     height: 500px;
   
     }
