@@ -359,11 +359,33 @@ div.fixed {
   }
 }
 
-#containerForm{
+.containerForm{
   background: #4b4b4b;
-  color: red;
+  color: #ffffff;
+  padding-left: 0px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 40px;
   }
 
+  @media only screen and (min-width: 700px) {
+  .containerForm {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .containerForm {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 30px;
+      padding-bottom: 40px;
+      }
+    }
+    
 .imgFormularioChico{   
     }
 
@@ -372,14 +394,26 @@ div.fixed {
   background: url(../images/formulariochico.jpg) no-repeat;
   background-position: center center;
   height: 600px;
-  width: 500px;
-  
-  
-  
+  width: 500px; 
 
   }
 
 }
+
+.imgFormularioGrande {
+
+}
+
+@media only screen and (min-width: 599px) {
+  .imgFormularioGrande {
+    background: url(../images/imgformulario.jpg) no-repeat;
+    background-position: center center;
+    width: 1200px;
+    height: 500px;
+  
+    }
+  
+  }
 
 .aumentoGaleriaSocial {
   -webkit-transform: scale(1);

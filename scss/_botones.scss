@@ -13,14 +13,16 @@
 }
 
 
+
+
 .btn-primary:hover {
-    background:  #009999;
+    background: #009999;
     border: none;
 }
 .btn {
     display: inline-block;
     font-weight: 400;
-    color: #212529;
+    color: #ffffff;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -35,6 +37,7 @@
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+
 
 a {
     color:  #009999;
