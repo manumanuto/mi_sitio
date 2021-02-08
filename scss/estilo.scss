@@ -414,8 +414,8 @@ div.fixed {
 
 .aumentoGaleriaSocial {
   -webkit-transform: scale(1);
-          transform: scale(1);
-  -webkit-transition: -webkit-transform 1s ease;
+          transform: scale(0,3);
+  -webkit-transition: -webkit-transform 0,1s ease;
   transition: -webkit-transform 0,1s ease;
   transition: transform 0,1s ease;
   transition: transform 0,1s ease, -webkit-transform 0,1s ease;
@@ -464,7 +464,7 @@ div.fixed {
 
 #parrafodiseñoIndex {
   color: white;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .cajaParrafoIndex {
@@ -483,6 +483,15 @@ div.fixed {
 
 .bloqueParrafoIndex {
   padding-bottom: 70px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+@media only screen and (max-width: 500px) {
+  .bloqueParrafoIndex {
+    padding-right: 2px;
+    padding-left: 2px;
+  }
 }
 
 p {
@@ -577,3 +586,18 @@ p {
 padding-top: 10px;
 
 }
+
+@media only screen and (min-width: 599px) {
+  .tituloIndex {
+    background: url(../images/TITULO\ INDEX-03.png) no-repeat;
+    background-position: center center;
+    width: 1500px;
+    height: 500px;
+  
+    }
+  
+  }
+
+  .Holamundo {
+    padding-right: 10px;
+  }

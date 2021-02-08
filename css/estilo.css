@@ -368,8 +368,14 @@ div.fixed {
   padding: 70px;
   text-align: center; }
 
+.containerRedesIndex {
+  padding: 70px;
+  text-align: center; 
+background-color: #ffffff;
+}
+
 .imagenPrincipalBranding {
-  background-image: url("../images/tarjetas.jpg");
+  background-image: url("../images/principalbranding.jpg");
   background-size: cover;
   background-position: center;
   height: 320px; }
@@ -431,8 +437,8 @@ div.fixed {
 
 .aumentoGaleriaSocial {
   -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: -webkit-transform 1s ease;
+  transform: scale(0, 3);
+  -webkit-transition: -webkit-transform 0,1s ease;
   transition: -webkit-transform 0,1s ease;
   transition: transform 0,1s ease;
   transition: transform 0,1s ease, -webkit-transform 0,1s ease;
@@ -474,7 +480,7 @@ div.fixed {
 
 #parrafodiseñoIndex {
   color: white;
-  font-size: 15px; }
+  font-size: 16px; }
 
 .cajaParrafoIndex {
   display: flex;
@@ -488,7 +494,14 @@ div.fixed {
     padding-left: 400px; } }
 
 .bloqueParrafoIndex {
-  padding-bottom: 70px; }
+  padding-bottom: 70px;
+  padding-left: 120px;
+  padding-right: 120px; }
+
+@media only screen and (max-width: 500px) {
+  .bloqueParrafoIndex {
+    padding-right: 2px;
+    padding-left: 2px; } }
 
 p {
   color: #009999; }
@@ -577,12 +590,12 @@ p {
   text-align: center; }
 
 .fondoProyectosBranding {
-  background: #c5c5c5;
+  background:  #4b4b4b;
   padding-top: 40px;
   padding-bottom: 40px; }
 
 .fondoGaLogos {
-  background-color: #4b4b4b;
+  background-color: #c5c5c5;
   padding-bottom: 40px; }
 
 @media only screen and (min-width: 1000px) {
