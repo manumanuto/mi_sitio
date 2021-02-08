@@ -1,7 +1,6 @@
 {
   "name": "mi_repositorio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,5 +12,14 @@
   "devDependencies": {
     "node-sass": "^5.0.0",
     "nodemon": "^2.0.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manumanuto/mi_sitio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manumanuto/mi_sitio/issues"
+  },
+  "homepage": "https://github.com/manumanuto/mi_sitio#readme",
+  "description": ""
 }

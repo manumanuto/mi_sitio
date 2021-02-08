@@ -346,23 +346,26 @@ div.fixed {
   background:  #4b4b4b;
   font-family: Arial, Helvetica, sans-serif;
   font-style: bold;
-  padding: 200px;
-  padding-left: 300px;
+  width: 100%;
+  
 }
 
 @media only screen and (min-width: 600px) {
   .fondoFooter {
     background: url(../images/imgformulario.jpg) no-repeat;
-    padding: 200px;
+   background-position: center;
     
     color: #4b4b4b ;
   }
 }
 
-.imgFormularioChico{   
-  
+#containerForm{
+  background: #4b4b4b;
+  color: red;
+  }
 
-   }
+.imgFormularioChico{   
+    }
 
 @media only screen and (max-width: 598px) {
 .imgFormularioChico {
