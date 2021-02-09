@@ -270,6 +270,12 @@ div.fixed {
   align-items: center;
 }
 
+.imgIndex{
+  width: 100%;
+  padding: 0%; 
+
+  }
+ 
 .iconosCualidades {
   transition: 2s;
 }
@@ -300,9 +306,27 @@ div.fixed {
 #menuFont {
   font-size: 15px;
 }
-
 .container-fluidMenu {
+padding: 0%;
+}
+
+.container-carruselgrande {
   padding: 0%;
+  
+}
+
+@media only screen and (min-width: 501px) {
+  .container-carrusel-chico {
+    width: 0%;
+    padding: 0%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container-carrusel-chico {
+    width: 100%;
+    padding: 0%;
+  }
 }
 
 .cabeceraBranding {
@@ -399,19 +423,39 @@ div.fixed {
 
 }
 
+@media only screen and (min-width: 599px) {
+  .imgindexprincipal {
+    background: url(../images/imagenprincipalindex.jpg) no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 600px;
+  
+    }
+  
+  }
+
 
 
 @media only screen and (min-width: 599px) {
   .imgFormularioGrande {
     background: url(../images/imgformulario.jpg) no-repeat;
     background-position: center center;
-    width: 1500px;
+    width: 100%;
     height: 500px;
   
     }
   
   }
 
+  .containerRedesIndex {
+  padding: 70px;
+  text-align: center;
+  background: #ffffff;
+  }
+
+  
+
+  
 .aumentoGaleriaSocial {
   -webkit-transform: scale(1);
           transform: scale(0,3);
@@ -474,12 +518,38 @@ div.fixed {
   padding-right: 50px;
 }
 
+
+
 @media only screen and (min-width: 1440px) {
   .cajaParrafoIndex {
     padding-right: 400px;
     padding-left: 400px;
   }
 }
+
+
+
+@media only screen and (min-width: 599px) {
+  .imgIndex {
+    background: url(../images/imagenprincipalindex.jpg) no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 500px;
+  
+    }
+  
+  }
+
+
+@media only screen and (min-width: 700px) {
+  .imgIndex {
+    width: 100%;
+    height: 100%;
+    background: url(../images/imagenprincipalindex.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
 
 .bloqueParrafoIndex {
   padding-bottom: 70px;
@@ -534,6 +604,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
+  width: 80%;
 }
 
 .proyectosCards .card {
@@ -587,17 +658,16 @@ padding-top: 10px;
 
 }
 
-@media only screen and (min-width: 599px) {
+@media only screen and (min-width: 100px) {
   .tituloIndex {
-    background: url(../images/TITULO\ INDEX-03.png) no-repeat;
-    background-position: center center;
-    width: 1500px;
-    height: 500px;
+    background: url(../images/titulo-index.png) no-repeat; 
+    background-position: center;
+    background-size: cover;    
+    width: 100%;
+    height: 200px;
   
     }
   
   }
 
-  .Holamundo {
-    padding-right: 10px;
-  }
+  

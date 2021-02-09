@@ -322,6 +322,10 @@ div.fixed {
   padding: 10px;
   align-items: center; }
 
+.imgIndex {
+  width: 100%;
+  padding: 0%; }
+
 .iconosCualidades {
   transition: 2s; }
 
@@ -350,6 +354,19 @@ div.fixed {
 .container-fluidMenu {
   padding: 0%; }
 
+.container-carruselgrande {
+  padding: 0%; }
+
+@media only screen and (min-width: 501px) {
+  .container-carrusel-chico {
+    width: 0%;
+    padding: 0%; } }
+
+@media only screen and (max-width: 500px) {
+  .container-carrusel-chico {
+    width: 100%;
+    padding: 0%; } }
+
 .cabeceraBranding {
   background: image url(../images/cabecerabranding.jpg); }
 
@@ -368,14 +385,8 @@ div.fixed {
   padding: 70px;
   text-align: center; }
 
-.containerRedesIndex {
-  padding: 70px;
-  text-align: center; 
-background-color: #ffffff;
-}
-
 .imagenPrincipalBranding {
-  background-image: url("../images/principalbranding.jpg");
+  background-image: url("../images/tarjetas.jpg");
   background-size: cover;
   background-position: center;
   height: 320px; }
@@ -429,11 +440,23 @@ background-color: #ffffff;
     width: 500px; } }
 
 @media only screen and (min-width: 599px) {
+  .imgindexprincipal {
+    background: url(../images/imagenprincipalindex.jpg) no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 600px; } }
+
+@media only screen and (min-width: 599px) {
   .imgFormularioGrande {
     background: url(../images/imgformulario.jpg) no-repeat;
     background-position: center center;
-    width: 1500px;
+    width: 100%;
     height: 500px; } }
+
+.containerRedesIndex {
+  padding: 70px;
+  text-align: center;
+  background: #ffffff; }
 
 .aumentoGaleriaSocial {
   -webkit-transform: scale(1);
@@ -492,6 +515,20 @@ background-color: #ffffff;
   .cajaParrafoIndex {
     padding-right: 400px;
     padding-left: 400px; } }
+
+@media only screen and (min-width: 599px) {
+  .imgIndex {
+    background: url(../images/imagenprincipalindex.jpg) no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 500px; } }
+
+@media only screen and (min-width: 700px) {
+  .imgIndex {
+    width: 100%;
+    height: 100%;
+    background: url(../images/imagenprincipalindex.jpg) no-repeat;
+    background-size: cover; } }
 
 .bloqueParrafoIndex {
   padding-bottom: 70px;
@@ -584,18 +621,19 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: auto; }
+  margin: auto;
+  width: 80%; }
 
 .proyectosCards .card {
   text-align: center; }
 
 .fondoProyectosBranding {
-  background:  #4b4b4b;
+  background: #c5c5c5;
   padding-top: 40px;
   padding-bottom: 40px; }
 
 .fondoGaLogos {
-  background-color: #c5c5c5;
+  background-color: #4b4b4b;
   padding-bottom: 40px; }
 
 @media only screen and (min-width: 1000px) {
@@ -624,3 +662,11 @@ p {
 
 .galeriaIndex {
   padding-top: 10px; }
+
+@media only screen and (min-width: 100px) {
+  .tituloIndex {
+    background: url(../images/titulo-index.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px; } }
