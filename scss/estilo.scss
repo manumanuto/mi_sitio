@@ -37,6 +37,15 @@ nav {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 2px;
 }
+#parrafocomuncentrado {
+  color: rgb(139, 139, 139);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+
+}
 
 #parrafoPerfil {
   color: rgb(139, 139, 139);
@@ -305,9 +314,28 @@ div.fixed {
 
 #menuFont {
   font-size: 15px;
+  color: rgb(139, 139, 139);
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 2px;
 }
 .container-fluidMenu {
 padding: 0%;
+}
+
+.titulomobile {
+padding: 80px;
+}
+
+@media only screen and (max-width: 599px) {
+  .titulomobile {
+    width: 100%;
+    height: 80%;
+    padding: 80px;
+    background: url(../images/titulo-index.png) no-repeat; 
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .container-carruselgrande {
@@ -346,19 +374,24 @@ padding: 0%;
   color: white;
 }
 
-.containerRedes {
+.container-redes {
   padding: 70px;
   text-align: center;
+  justify-content: center;
 }
 
-.imagenPrincipalBranding {
-  background-image: url("../images/tarjetas.jpg");
+.fondo-social-logos {
+  background: #4b4b4b;
+}
+
+.imagenprincipalbranding {
+  background-image: url(../images/principalbranding.jpg);
   background-size: cover;
   background-position: center;
-  height: 320px;
+  height: 500px;
 }
 @media only screen and (min-width: 1440px) {
-  .imagenPrincipalBranding {
+  .imagenprincipalbranding {
     height: 442px;
     background-size: cover;
   }
@@ -454,23 +487,33 @@ padding: 0%;
   }
 
   
+.aumento-social {
 
+transform: scale(1);
+transition: 1s;
+transition: -webkit-transform 0,1s ease;
+border: none;
   
-.aumentoGaleriaSocial {
-  -webkit-transform: scale(1);
-          transform: scale(0,3);
-  -webkit-transition: -webkit-transform 0,1s ease;
-  transition: -webkit-transform 0,1s ease;
-  transition: transform 0,1s ease;
-  transition: transform 0,1s ease, -webkit-transform 0,1s ease;
-  border: none;
+
 }
+
+.aumento-social:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  cursor: pointer;
+}
+
+#parrafocomun {
+  font-size: 15px;
+  color: #4b4b4b;
+}
+
 #parrafoEmpresasSocial {
   padding: 30px;
   padding-left: 5px;
 }
 
-.aumentoGaleriaSocial:hover {
+.aumentogaleriasocial:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   cursor: pointer;
@@ -517,13 +560,29 @@ padding: 0%;
   padding-left: 50px;
   padding-right: 50px;
 }
-
+ 
 
 
 @media only screen and (min-width: 1440px) {
   .cajaParrafoIndex {
     padding-right: 400px;
     padding-left: 400px;
+  }
+}
+
+.cajaParrafoBrand {
+  display: flex;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media only screen and (min-width: 1300px) {
+  .cajaParrafoBrand {
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-bottom: 60px;
   }
 }
 
@@ -599,6 +658,11 @@ p {
   text-align: center;
 }
 
+.textgris {
+  color: #009999;
+
+}
+
 .proyectosCards {
   display: flex;
   flex-wrap: wrap;
@@ -611,20 +675,25 @@ p {
   text-align: center;
 }
 
-.fondoProyectosBranding {
-  background: #c5c5c5;
+.ejemploclase {
+padding: 0%;
+}
+
+.fondoproyectosbranding {
+  background: #4b4b4b;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-.fondoGaLogos {
-  background-color: #4b4b4b;
+.fondo-ga-logos {
+  background-color: #ffffff;
   padding-bottom: 40px;
+  background: url(../images/fondo-galeria-logos.jpg) no-repeat;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (max-width: 500px) {
   .fondoGaLogos {
-    background: url(../images/fondoLogosGaleria.jpg) no-repeat;
+    background: #4b4b4b;
   }
 }
 
@@ -653,21 +722,9 @@ p {
   width: 1200px;
 }
 
-.galeriaIndex {
+.galeriaindex {
 padding-top: 10px;
 
 }
-
-@media only screen and (min-width: 100px) {
-  .tituloIndex {
-    background: url(../images/titulo-index.png) no-repeat; 
-    background-position: center;
-    background-size: cover;    
-    width: 100%;
-    height: 200px;
-  
-    }
-  
-  }
 
   
