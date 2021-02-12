@@ -419,10 +419,23 @@ div.fixed {
   background-position: center;
   height: 500px; }
 
-@media only screen and (min-width: 1440px) {
-  .imagenprincipalbranding {
-    height: 442px;
-    background-size: cover; } }
+.imagenprincipalilustracion {
+  background-image: url(../images/principalilustracion.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px; }
+
+.imagenprincipalsocial {
+  background-image: url(../images/principalsocial.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px; }
+
+.imagenprincipalperfil {
+  background-image: url(../images/principalperfil.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px; }
 
 .fondoFooter {
   font-size: 18px;
